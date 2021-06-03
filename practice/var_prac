@@ -1,0 +1,5 @@
+#!/bin/bash
+s="Bash Shell Scripting"
+echo "Welcome to $s"
+echo "$s is powerful in Linux Environment"
+echo "Now we are working with variable concept of $s"
