@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "This is first line\nThis is second line\nThis loggedin User is:$(whoami)"
