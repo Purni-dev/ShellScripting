@@ -1,0 +1,5 @@
+#!/bin/bash
+Docker_Version=$(docker -v | awk '/version/ {print $3}' | tr -d ',')
+Docker_Status=$(systemctl status docker | awk '/Active/ {print $3}'| tr -d '[()]') 
+echo "The Docker Version is: $Docker_Version"
+echo "The Docker Status is: $Docker_Status"
