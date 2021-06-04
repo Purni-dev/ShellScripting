@@ -5,4 +5,36 @@ echo "$s is powerful in Linux Environment"
 echo "Now we are working with variable concept of $s"
 echo -e "This is about \"bash\" scripting"
 
+echo -e "\033[0;32mThis is green color font\033[0m"
+
+echo -e "\033[0;31mThis is red color font\033[0m"
+
+echo -e "\033[0;33mThis is yellow  color font\033[0m"
+
+echo -e "\033[0;35mThis is purple color font\033[0m"
+
+echo -e "\033[0;36mThis is cyan color font\033[0m"
+
+echo -e "\033[0;34mThis is blue color font\033[0m"
+
+echo -e "\033[0;37mThis is white color font\033[0m"
+
+echo -e "\033[1;31mThis is Bred color font\033[0m"
+
+echo -e "\033[1;32mThis is Bgreen color font\033[0m"
+
+echo -e "\033[1;33mThis is Byellow color font\033[0m"
+
+echo -e "\033[1;34mThis is Bblue color font\033[0m"
+
+echo -e "\033[4;32mThis font is underlined with green color\033[0m"
+
+echo -e "\033[43mThis font background color is yellow\033[0m"
+
+echo -e "\033[0;95mThis font is with highintensity\033[0m"
+
+echo -e "\033[1;92mThis font is with bold highintensity\033[0m"
+
+echo -e "\033[0;104mThis font is with high intensity background\033[0m"
+
 
