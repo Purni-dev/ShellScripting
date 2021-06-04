@@ -37,4 +37,5 @@ echo -e "\033[1;92mThis font is with bold highintensity\033[0m"
 
 echo -e "\033[0;104mThis font is with high intensity background\033[0m"
 
-
+echo -n "This is third line"
+echo "This is fourth line"
