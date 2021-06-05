@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 << MYCOM
 This is about comments.
 There are 2 types
