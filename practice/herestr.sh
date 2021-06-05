@@ -1,14 +1,17 @@
 #!/bin/bash
-echo "Example of echo Converting string from lower to uppercase :"
+#Example of echo Converting string from lower to uppercase :
 echo "This is Sai Ram" | tr [:lower:] [:upper:]   
-echo "==============================="
-echo "Example of Here String Converting string from upper to lowercase : "
+<< Mycom
+This is about multi line comments
+Example of Here String in terms of String 
+Mycom
 tr [:upper:] [:lower:] <<< "This is Sai Ram"
 echo "============================"
-echo "Example of Here String  Converting string from upper to lowercase "
+#Example of Here String in terms of variable :
 name="BASH SHELL SCRIPTING"
 tr [A-Z] [a-z] <<< $name
 echo "============================"
-echo "Need to display docker version in UPPERCASE letters"
+#Need to display docker version in terms of command :
 tr [a-z] [A-Z] <<<$(docker -v)
+echo "============================"
 docker -v | tr [a-z] [A-Z]
