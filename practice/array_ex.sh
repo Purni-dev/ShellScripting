@@ -12,3 +12,5 @@ echo "To display xyzarray index values ${!xyzarray[@]}"
 echo "To display total vlues in array ${#xyzarray[@]}"
 read -p "Enter your array : " -a redarray
 echo "To display the array ${redarray[@]}"
+klmarray=([2]=56 [7]=90 [10]="Linux Commands")
+echo "To display klmarray ${klmarray[@]}"
