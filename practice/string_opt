@@ -1,0 +1,30 @@
+#!/bin/env bash
+x="Welcome To Linux World"
+#If you want to find out length of variable then use
+echo "${#x}"
+#Concatenation of strings
+x="Welcome To/"
+y="Linux World"
+z=${x}${y}
+echo ${z}
+#Converting strings to upper to lower case and lower to upper case
+x="WELCOME TO"
+echo "${x,,}"
+y="linux world"
+echo "${y^^}"
+: '
+Replace part of string using variable
+Using string operation
+with sed command
+'
+z="Shell Scripting"
+#Replace Shell with Bash Shell
+newz="${z/Shell/Bash Shell}"
+echo "$newz"
+#With sed command
+newz="$z" | sed 's/Shell/Linux Shell/'
+echo "$newz"
+#Slicing the string/sub-string
+z="Welcome To Linux World"
+newz="${z:3:7}"
+echo "${newz}"
